@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Comic Neue', cursive;
+    color: rgba(70, 70, 70, 1);
+}
+.container-fluid, .card-body, #campo-busca {
+    background-color: rgba(245, 245, 245, 1);
+}
+h3 {
+    font-size: 32px;
+    padding-top: 20px;
+}
+/*Menu*/
+.navbar, #menu {
+    background-color: rgba(255, 255, 255, 1);
+}
+#campo-busca {
+    border-radius: 30px;
+    border: none;
+}
+#btn-lupa {
+    border: none;
+    border-radius: 100%;
+}
+/*Banner*/
+.banner-titulo {
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 52px;
+}
+.banner-texto {
+    color:rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/*Card*/
+.card {
+    border: none;
+}
+.card-title, .card-text{
+    font-size: 14px;
+}
+.card-text {
+    font-weight: bold;
+    padding-top: 5px;
+}
+.card-body {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 3px;
+}
+.link-tudo {
+    text-decoration: none;
+    margin-left: 1000px;
+    margin-bottom: 10px;
+}
+/*Informacoes*/
+.informacoes {
+    background-color: rgba(234, 242, 253, 1);
+}
+#informacoes-itens {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#nome, #mensagem {
+    border: none;
+}
+.rodape-link, .card-link{
+    text-decoration: none;
+}
+.adicionar-letra {
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+@media (max-width: 576px) {
+    #card-esconde {
+        display: none;
+    }
+    .link-tudo {
+        margin-left: 300px;
+    }
+  #informacoes-img {
+    text-align: center;
+  }
+  #informacoes-link {
+    text-align: center;
+  }
+}
+

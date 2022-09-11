@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Comic Neue', cursive;
+    color: rgba(70, 70, 70, 1);
+}
+.container-fluid, .card-body, #campo-busca {
+    background-color: rgba(245, 245, 245, 1);
+}
+h3 {
+    font-size: 32px;
+    padding-top: 20px;
+}
+/*Menu*/
+.navbar, #menu {
+    background-color: rgba(255, 255, 255, 1);
+}
+#campo-busca {
+    border-radius: 30px;
+    border: none;
+}
+#btn-lupa {
+    border: none;
+    border-radius: 100%;
+}
+/*login*/
+#login, #senha {
+    background-color: rgba(255, 255, 255, 1);
+    width: 400px; 
+}
+.form-login {
+    padding-top: 50px;
+}
+
+/*Informacoes*/
+.informacoes {
+    background-color: rgba(234, 242, 253, 1);
+}
+#informacoes-itens {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#nome, #mensagem, #login, #senha {
+    border: none;
+}
+/*Rodape*/
+.rodape-link, .card-link{
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 400px) {
+    #card-esconde {
+        display: none;
+    }
+    #login, #senha { 
+        margin-left: 20px;
+    }
+    #informacoes-img {
+    text-align: center;
+     }
+    #informacoes-link {
+    text-align: center;
+    }
+}
+@media (min-width: 800px) {
+  
+    #login, #senha { 
+        margin-left: 350px;
+    }
+   #btn-adicionar {
+        text-align: end;
+   }
+}
+
+
