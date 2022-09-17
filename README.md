@@ -16,5 +16,6 @@ Para este projeto Apliquei as seguintes ferramentas:
 - HTML 5;
 - CSS 3;
 - Bootstrap;
+- JavaScript.
 
 O projeto ainda está em constrção...mais informações na parte 2 do challenge.
